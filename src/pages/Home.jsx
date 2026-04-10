@@ -1,5 +1,5 @@
 // import HeroSection from "../component/herosection/Herosection";
-import HeroSection from "../component/herosection/Herosection";
+import HeroSection from "../component/Herosection/Herosection";
 import BecomeDonor from "./BecomeDonor";
 import FindBlood from "./FindBlood";
 
