@@ -17,7 +17,7 @@ const Footer = () => {
         <Row className="mb-4">
           <Col lg={3} md={6} className="mb-4">
             <div className="footer-logo mb-2">
-              <img src={Logo} alt="Give Me Life Logo" className="footer-logo-img" />
+              <Logo />
             </div>
             <p className="mission">Connecting donors and patients in real-time to save lives faster.</p>
             <p className="emergency-tagline">🩸 Every Drop Counts.</p>

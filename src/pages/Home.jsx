@@ -1,5 +1,4 @@
-// import HeroSection from "../component/herosection/Herosection";
-import HeroSection from "../component/Herosection/Herosection";
+import HeroSection from "../component/herosection/HeroSection";
 import BecomeDonor from "./BecomeDonor";
 import FindBlood from "./FindBlood";
 
@@ -10,7 +9,7 @@ export default function Home() {
         <>
 
             <div className="pt-0">
-             <HeroSection/>
+                <HeroSection />
             </div>
             <div>
                 <BecomeDonor />
