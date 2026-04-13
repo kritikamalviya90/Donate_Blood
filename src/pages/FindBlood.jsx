@@ -107,6 +107,7 @@ const FindBlood = () => {
                 value={state}
                 onChange={(e) => setState(e.target.value)}
                 placeholder="e.g. Maharashtra"
+                className="bb-search glass"
               />
             </Col>
 
@@ -116,6 +117,7 @@ const FindBlood = () => {
                 value={city}
                 onChange={(e) => setCity(e.target.value)}
                 placeholder="e.g. Mumbai"
+                className="bb-search glass"
               />
             </Col>
 
@@ -133,14 +135,16 @@ const FindBlood = () => {
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
                 placeholder="Search name or city"
+                className="bb-search glass"
               />
             </Col>
 
             <Col md={4}>
-              <Form.Label className="text-white">Availability</Form.Label>
+              <Form.Label className=" text-white">Availability</Form.Label>
               <Form.Select
                 value={availability}
                 onChange={(e) => setAvailability(e.target.value)}
+                className="bb-location glass"
               >
                 <option value="all">All</option>
                 <option value="available">Available</option>
@@ -157,6 +161,7 @@ const FindBlood = () => {
                 min={5}
                 max={25}
                 value={radius}
+                className="bb-search glass"
                 onChange={(e) => setRadius(Number(e.target.value))}
               />
             </Col>

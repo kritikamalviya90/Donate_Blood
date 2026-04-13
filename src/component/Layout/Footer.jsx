@@ -1,4 +1,4 @@
-import React from "react";
+import { Link } from "react-router-dom";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "../UI/Button";
 import { FaLinkedin, FaInstagram, FaTwitter, FaFacebook } from "react-icons/fa";
@@ -26,22 +26,22 @@ const Footer = () => {
           <Col lg={2} md={6} className="mb-4">
             <h5 className="footer-title">Platform</h5>
             <ul className="footer-links list-unstyled">
-              <li><a href="/">Home</a></li>
-              <li><a href="/find-blood">Find Blood</a></li>
-              <li><a href="/become-donor">Become a Donor</a></li>
-              <li><a href="/hospitals">Hospitals</a></li>
-              <li><a href="/blood-banks">Blood Banks</a></li>
-              <li><a href="/csr-partnerships">CSR Partnerships</a></li>
+              <li><Link to="/">Home</Link></li>
+              <li><Link to="/find-blood">Find Blood</Link></li>
+              <li><Link to="/become-donor">Become a Donor</Link></li>
+              <li><Link to="/hospitals">Hospitals</Link></li>
+              <li><Link to="/blood-banks">Blood Banks</Link></li>
+              <li><Link to="/csr-partnerships">CSR Partnerships</Link></li>
             </ul>
           </Col>
           <Col lg={2} md={6} className="mb-4">
             <h5 className="footer-title">Support</h5>
             <ul className="footer-links list-unstyled">
-              <li><a href="/help-center">Help Center</a></li>
-              <li><a href="/faqs">FAQs</a></li>
-              <li><a href="/contact-support">Contact Support</a></li>
-              <li><a href="/report-abuse">Report Abuse</a></li>
-              <li><a href="/emergency-guide">Emergency Guide</a></li>
+              <li><Link to="/help-center">Help Center</Link></li>
+              <li><Link to="/faqs">FAQs</Link></li>
+              <li><Link to="/contact-support">Contact Support</Link></li>
+              <li><Link to="/report-abuse">Report Abuse</Link></li>
+              <li><Link to="/emergency-guide">Emergency Guide</Link></li>
             </ul>
           </Col>
           <Col lg={3} md={6} className="mb-4">
@@ -95,7 +95,11 @@ const Footer = () => {
             <p>© 2026 Give Me Life. All rights reserved.</p>
           </Col>
           <Col md={6} className="text-md-end">
-            <a href="/privacy">Privacy Policy</a> • <a href="/terms">Terms of Service</a> • <a href="/cookies">Cookie Policy</a> • <a href="/accessibility">Accessibility</a> • <a href="/sitemap">Sitemap</a>
+            <Link to="/privacy" className="text-white text-decoration-none">Privacy Policy</Link> •{" "}
+            <Link to="/terms" className="text-white text-decoration-none">Terms of Service</Link> •{" "}
+            <Link to="/cookies" className="text-white text-decoration-none">Cookie Policy</Link> •{" "}
+            <Link to="/accessibility" className="text-white text-decoration-none">Accessibility</Link> •{" "}
+            <Link to="/sitemap" className="text-white text-decoration-none">Sitemap</Link>
             <p className="mt-1">Built for Humanity. Powered by Technology.</p>
           </Col>
         </Row>

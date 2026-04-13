@@ -3,7 +3,7 @@ import UICard from "../component/UI/UICard";
 
 export default function Sitemap() {
   return (
-    <Container className="py-5">
+    <Container className="py-5 mt-5">
       <div className="text-center mb-5">
         <h1 className="text-white hero-title">Sitemap</h1>
         <p className="text-white-50">

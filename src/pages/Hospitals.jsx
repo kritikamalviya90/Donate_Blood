@@ -144,6 +144,7 @@ const Hospitals = () => {
                                 placeholder="Enter city"
                                 value={city}
                                 onChange={(e) => setCity(e.target.value)}
+                                className="bb-search glass"
                             />
                         </Col>
 
@@ -154,6 +155,7 @@ const Hospitals = () => {
                                 placeholder="Hospital name or address"
                                 value={query}
                                 onChange={(e) => setQuery(e.target.value)}
+                                className="bb-search glass"
                             />
                         </Col>
 
