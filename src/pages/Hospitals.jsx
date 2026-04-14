@@ -128,7 +128,7 @@ const Hospitals = () => {
             </div>
 
             {/* Search */}
-            <UICard className="mb-3">
+            <UICard className="mb-3  text-white">
                 <UISectionHeader
                     title="Hospital Discovery"
                     subtitle="Search hospitals and verified blood banks by city or name."
@@ -144,7 +144,7 @@ const Hospitals = () => {
                                 placeholder="Enter city"
                                 value={city}
                                 onChange={(e) => setCity(e.target.value)}
-                                className="bb-search glass"
+                                className="bb-search glass   text-white"
                             />
                         </Col>
 

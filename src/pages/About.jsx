@@ -10,8 +10,8 @@ const About = () => {
         {/* Page Title */}
         <Row className="mb-4">
           <Col>
-            <h1 className="text-center ui-text-white hero-title pt-5">About Give Me Life</h1>
-            <p className="text-center ui-text-muted fs-5">
+            <h1 className="text-center  text-white hero-title pt-5">About Give Me Life</h1>
+            <p className="text-center  text-white fs-5">
               Connecting donors and patients in real-time to save lives faster.
             </p>
           </Col>
@@ -28,8 +28,8 @@ const About = () => {
                 />
               </div>
               <div className="p-4">
-                <h4 className="ui-text-white mb-2">Built for urgent moments</h4>
-                <p className="ui-text-muted mb-0">
+                <h4 className="text-white mb-2">Built for urgent moments</h4>
+                <p className=" text-white mb-0">
                   A trusted network of donors, hospitals, and blood banks that responds fast
                   when every minute counts.
                 </p>
@@ -48,8 +48,8 @@ const About = () => {
                   alt="Rapid matching"
                 />
               </div>
-              <h5 className="ui-text-white">Rapid Matching</h5>
-              <p className="ui-text-muted small">
+              <h5 className=" text-white">Rapid Matching</h5>
+              <p className=" text-white small">
                 Intelligent routing connects patients to the nearest compatible donors.
               </p>
             </UICard>
@@ -62,8 +62,8 @@ const About = () => {
                   alt="Verified network"
                 />
               </div>
-              <h5 className="ui-text-white">Verified Network</h5>
-              <p className="ui-text-muted small">
+              <h5 className=" text-white">Verified Network</h5>
+              <p className=" text-white small">
                 Hospitals and blood banks are verified for safety and compliance.
               </p>
             </UICard>
@@ -76,8 +76,8 @@ const About = () => {
                   alt="24x7 support"
                 />
               </div>
-              <h5 className="ui-text-white">24x7 Support</h5>
-              <p className="ui-text-muted small">
+              <h5 className=" text-white">24x7 Support</h5>
+              <p className=" text-white small">
                 Emergency response teams stay available around the clock.
               </p>
             </UICard>
@@ -86,7 +86,7 @@ const About = () => {
 
         {/* How It Works */}
         <Row className="mb-5 g-3">
-          <h2 className="ui-text-white mb-4 text-center">How It Works</h2>
+          <h2 className=" text-white mb-4 text-center">How It Works</h2>
           <Col md={4}>
             <UICard className="h-100">
               <div className="about-card-photo">
@@ -95,8 +95,8 @@ const About = () => {
                   alt="Request blood"
                 />
               </div>
-              <h6 className="ui-text-white">1. Request</h6>
-              <p className="ui-text-muted small">
+              <h6 className=" text-white">1. Request</h6>
+              <p className=" text-white small">
                 Submit a blood request with group, location, and urgency.
               </p>
             </UICard>
@@ -109,8 +109,8 @@ const About = () => {
                   alt="Match donors"
                 />
               </div>
-              <h6 className="ui-text-white">2. Match</h6>
-              <p className="ui-text-muted small">
+              <h6 className=" text-white">2. Match</h6>
+              <p className=" text-white small">
                 Our system notifies compatible donors and nearby hospitals.
               </p>
             </UICard>
@@ -123,8 +123,8 @@ const About = () => {
                   alt="Donate"
                 />
               </div>
-              <h6 className="ui-text-white">3. Donate & Save</h6>
-              <p className="ui-text-muted small">
+              <h6 className=" text-white">3. Donate & Save</h6>
+              <p className=" text-white small">
                 Donor connects, hospital verifies, and lives are saved.
               </p>
             </UICard>
@@ -141,8 +141,8 @@ const About = () => {
                   alt="Mission"
                 />
               </div>
-              <h5 className="ui-text-white">Our Mission</h5>
-              <p className="ui-text-muted">
+              <h5 className=" text-white">Our Mission</h5>
+              <p className=" text-white">
                 🩸 To provide an efficient, real-time platform that connects blood donors with patients in need,
                 reducing response time in emergencies and saving lives.
               </p>
@@ -156,8 +156,8 @@ const About = () => {
                   alt="Vision"
                 />
               </div>
-              <h5 className="ui-text-white">Our Vision</h5>
-              <p className="ui-text-muted">
+              <h5 className=" text-white">Our Vision</h5>
+              <p className=" text-white">
                 🌟 A world where no patient waits for life-saving blood and every donation counts toward saving lives.
               </p>
             </UICard>
@@ -174,9 +174,9 @@ const About = () => {
                   alt="Impact snapshot"
                 />
               </div>
-              <h5 className="ui-text-white">Impact Snapshot</h5>
-              <p className="ui-text-muted small mb-2">Lives supported</p>
-              <h3 className="ui-text-white">12,480+</h3>
+              <h5 className=" text-white">Impact Snapshot</h5>
+              <p className=" text-white small mb-2">Lives supported</p>
+              <h3 className=" text-white">12,480+</h3>
             </UICard>
           </Col>
           <Col md={4}>
@@ -187,9 +187,9 @@ const About = () => {
                   alt="Verified donors"
                 />
               </div>
-              <p className="ui-text-muted small mb-2">Verified donors</p>
-              <h3 className="ui-text-white">38,200+</h3>
-              <p className="ui-text-muted small mb-0">Across 90+ cities</p>
+              <p className=" text-white small mb-2">Verified donors</p>
+              <h3 className=" text-white">38,200+</h3>
+              <p className=" text-white small mb-0">Across 90+ cities</p>
             </UICard>
           </Col>
           <Col md={4}>
@@ -200,16 +200,16 @@ const About = () => {
                   alt="Partner hospitals"
                 />
               </div>
-              <p className="ui-text-muted small mb-2">Partner hospitals</p>
-              <h3 className="ui-text-white">520+</h3>
-              <p className="ui-text-muted small mb-0">24/7 response teams</p>
+              <p className=" text-white small mb-2">Partner hospitals</p>
+              <h3 className=" text-white">520+</h3>
+              <p className=" text-white small mb-0">24/7 response teams</p>
             </UICard>
           </Col>
         </Row>
 
         {/* Trust & Safety */}
         <Row className="mb-5 g-3">
-          <h2 className="ui-text-white mb-4 text-center">Trust & Safety</h2>
+          <h2 className=" text-white mb-4 text-center">Trust & Safety</h2>
           <Col md={6}>
             <UICard className="h-100">
               <div className="about-card-photo">
@@ -218,8 +218,8 @@ const About = () => {
                   alt="Verification"
                 />
               </div>
-              <h5 className="ui-text-white">Verification</h5>
-              <p className="ui-text-muted small">
+              <h5 className=" text-white">Verification</h5>
+              <p className=" text-white small">
                 Hospitals and blood banks undergo verification and periodic review.
               </p>
             </UICard>
@@ -232,8 +232,8 @@ const About = () => {
                   alt="Privacy"
                 />
               </div>
-              <h5 className="ui-text-white">Privacy</h5>
-              <p className="ui-text-muted small">
+              <h5 className=" text-white">Privacy</h5>
+              <p className=" text-white small">
                 Donor data is protected and shared only when a request is confirmed.
               </p>
             </UICard>
@@ -242,23 +242,23 @@ const About = () => {
 
         {/* Coverage */}
         <Row className="mb-5 g-3">
-          <h2 className="ui-text-white mb-4 text-center">Coverage</h2>
+          <h2 className=" text-white mb-4 text-center">Coverage</h2>
           <Col md={4}>
             <UICard className="h-100">
-              <h6 className="ui-text-white">North</h6>
-              <p className="ui-text-muted small">Delhi NCR, Chandigarh, Jaipur</p>
+              <h6 className=" text-white">North</h6>
+              <p className=" text-white small">Delhi NCR, Chandigarh, Jaipur</p>
             </UICard>
           </Col>
           <Col md={4}>
             <UICard className="h-100">
-              <h6 className="ui-text-white">West</h6>
-              <p className="ui-text-muted small">Mumbai, Pune, Ahmedabad</p>
+              <h6 className=" text-white">West</h6>
+              <p className=" text-white small">Mumbai, Pune, Ahmedabad</p>
             </UICard>
           </Col>
           <Col md={4}>
             <UICard className="h-100">
-              <h6 className="ui-text-white">South</h6>
-              <p className="ui-text-muted small">Bengaluru, Chennai, Hyderabad</p>
+              <h6 className=" text-white">South</h6>
+              <p className=" text-white small">Bengaluru, Chennai, Hyderabad</p>
             </UICard>
           </Col>
         </Row>
@@ -266,7 +266,7 @@ const About = () => {
         {/* Core Values */}
         <Row className="mb-5">
           <Col>
-            <h2 className="ui-text-white mb-4 text-center">Core Values</h2>
+            <h2 className=" text-white mb-4 text-center">Core Values</h2>
             <Row className="text-center">
               <Col md={3} sm={6} className="mb-3">
                 <UICard className="h-100">
@@ -276,8 +276,8 @@ const About = () => {
                       alt="Trust"
                     />
                   </div>
-                  <h6 className="ui-text-white">Trust</h6>
-                  <p className="ui-text-muted small">
+                  <h6 className=" text-white">Trust</h6>
+                  <p className=" text-white small">
                     We maintain complete transparency and security in all operations.
                   </p>
                 </UICard>
@@ -290,8 +290,8 @@ const About = () => {
                       alt="Compassion"
                     />
                   </div>
-                  <h6 className="ui-text-white">Compassion</h6>
-                  <p className="ui-text-muted small">
+                  <h6 className=" text-white">Compassion</h6>
+                  <p className=" text-white small">
                     We care deeply about patients and donors alike.
                   </p>
                 </UICard>
@@ -304,8 +304,8 @@ const About = () => {
                       alt="Innovation"
                     />
                   </div>
-                  <h6 className="ui-text-white">Innovation</h6>
-                  <p className="ui-text-muted small">
+                  <h6 className=" text-white">Innovation</h6>
+                  <p className=" text-white small">
                     We use technology to streamline emergency blood requests.
                   </p>
                 </UICard>
@@ -318,8 +318,8 @@ const About = () => {
                       alt="Community"
                     />
                   </div>
-                  <h6 className="ui-text-white">Community</h6>
-                  <p className="ui-text-muted small">
+                  <h6 className=" text-white">Community</h6>
+                  <p className=" text-white small">
                     Building a network of donors and hospitals to save lives together.
                   </p>
                 </UICard>
@@ -330,7 +330,7 @@ const About = () => {
 
         {/* Leadership */}
         <Row className="mb-5 g-3">
-          <h2 className="ui-text-white mb-4 text-center">Our Team</h2>
+          <h2 className=" text-white mb-4 text-center">Our Team</h2>
           <Col md={4}>
             <UICard className="h-100">
               <div className="team-photo">
@@ -341,12 +341,12 @@ const About = () => {
               </div>
               <div className="doctor-row mb-3">
                 <div>
-                  <div className="ui-text-white">Dr. Meera Joshi</div>
-                  <div className="ui-text-muted small">Founder & Medical Director</div>
+                  <div className=" text-white">Dr. Meera Joshi</div>
+                  <div className=" text-white small">Founder & Medical Director</div>
                 </div>
               </div>
-              <p className="ui-text-muted small mb-2">MBBS, MD (Emergency Medicine)</p>
-              <p className="ui-text-muted small">
+              <p className=" text-white small mb-2">MBBS, MD (Emergency Medicine)</p>
+              <p className=" text-white small">
                 12+ years in trauma care and emergency response systems.
               </p>
               <div className="hospital-chips mt-3">
@@ -366,12 +366,12 @@ const About = () => {
               </div>
               <div className="doctor-row mb-3">
                 <div>
-                  <div className="ui-text-white">Arjun Singh</div>
-                  <div className="ui-text-muted small">Head of Operations</div>
+                  <div className=" text-white">Arjun Singh</div>
+                  <div className=" text-white small">Head of Operations</div>
                 </div>
               </div>
-              <p className="ui-text-muted small mb-2">MBA (Healthcare), Lean Six Sigma</p>
-              <p className="ui-text-muted small">
+              <p className=" text-white small mb-2">MBA (Healthcare), Lean Six Sigma</p>
+              <p className=" text-white small">
                 9+ years managing hospital networks and rapid response logistics.
               </p>
               <div className="hospital-chips mt-3">
@@ -391,12 +391,12 @@ const About = () => {
               </div>
               <div className="doctor-row mb-3">
                 <div>
-                  <div className="ui-text-white">Kavya Nair</div>
-                  <div className="ui-text-muted small">Technology Lead</div>
+                  <div className=" text-white">Kavya Nair</div>
+                  <div className=" text-white small">Technology Lead</div>
                 </div>
               </div>
-              <p className="ui-text-muted small mb-2">B.Tech (CSE), M.S. (Data Systems)</p>
-              <p className="ui-text-muted small">
+              <p className=" text-white small mb-2">B.Tech (CSE), M.S. (Data Systems)</p>
+              <p className=" text-white small">
                 10+ years building real-time health-tech platforms.
               </p>
               <div className="hospital-chips mt-3">
@@ -411,8 +411,8 @@ const About = () => {
         {/* Call to Action */}
         <Row className="text-center">
           <Col>
-            <h3 className="ui-text-white mb-3">Join Our Life-Saving Mission</h3>
-            <p className="fs-5 ui-text-muted mb-3">
+            <h3 className=" text-white mb-3">Join Our Life-Saving Mission</h3>
+            <p className="fs-5  text-white mb-3">
               Become a donor today or spread awareness to help patients in need.
             </p>
             <Button className="btn-donate" route="/become-donor">

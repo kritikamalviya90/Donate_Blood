@@ -93,7 +93,7 @@ const FindBlood = () => {
       </div>
 
       {/* Search Filters */}
-      <UICard className="mb-5">
+      <UICard className="mb-5 text-white">
         <UISectionHeader
           title="Find Donors"
           subtitle="Search nearby blood donors quickly."
@@ -161,7 +161,7 @@ const FindBlood = () => {
                 min={5}
                 max={25}
                 value={radius}
-                className="bb-search glass"
+                className="bb-search "
                 onChange={(e) => setRadius(Number(e.target.value))}
               />
             </Col>

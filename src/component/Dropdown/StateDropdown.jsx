@@ -38,7 +38,7 @@ export default function StateDropdown() {
     return (
         <div className={`dropdown state-dropdown ${open ? "show" : ""}`}>
             <div
-                className="btn btn-sm d-flex align-items-center gap-2 ui-text-white state-btn"
+                className="btn btn-sm d-flex align-items-center gap-2 text-white state-btn"
                 onClick={() => setOpen(!open)}
             >
                 <img src="https://flagcdn.com/in.svg" width="18" alt="India flag" />
