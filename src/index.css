@@ -435,7 +435,7 @@ h6 {
 
 }
 
-
+/* 
 .hero-overlay {
   position: absolute;
   width: 100%;
@@ -443,7 +443,7 @@ h6 {
   ;
   background: rgba(0, 0, 0, 0.4);
 
-}
+} */
 
 .hero-content {
   position: relative;
@@ -1480,4 +1480,42 @@ textarea::placeholder {
 
 .bottom-nav-item:hover {
   color: var(--blood-light);
+}
+
+/* profile */
+.profile-sidebar {
+  width: 220px;
+  background: #fff;
+  min-height: 100vh;
+  border-right: 1px solid #eee;
+}
+
+.profile-header-card {
+  background: linear-gradient(135deg,
+      var(--blood-primary),
+      var(--blood-dark));
+}
+
+.profile-avatar-large {
+  width: 80px;
+  height: 80px;
+  background: #fff;
+  color: linear-gradient(135deg,
+      var(--blood-primary),
+      var(--blood-dark));
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.stat-card {
+  background: #fff;
+  border: 1px solid #eee;
+}
+
+.card {
+  border-radius: 10px;
 }

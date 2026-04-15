@@ -1,16 +1,25 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Logo from "../UI/Logo";
 import StateDropdown from "../Dropdown/StateDropdown";
 import Button from "../UI/Button";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { FaSearch } from "react-icons/fa";
 
 export default function Header() {
     const [search, setSearch] = useState("");
+    const [user, setUser] = useState(null);
+    const navigate = useNavigate();
 
     const handleSearch = () => {
         console.log("Search:", search);
     };
+
+    useEffect(() => {
+        const storedUser = localStorage.getItem("user");
+        if (storedUser) {
+            setUser(JSON.parse(storedUser));
+        }
+    }, []);
 
     return (
         <nav className="bb-navbar main-navbar">
@@ -27,9 +36,27 @@ export default function Header() {
                     {/* Login */}
                     <div className="col-6 col-md-3 col-lg-2 text-end order-2 order-md-3">
                         <div className="bb-right d-flex justify-content-end">
-                            <Button route="/login" variant="primary" size="md">
-                                Login
-                            </Button>
+
+                            {!user ? (
+                                <Button route="/login" variant="primary" size="md">
+                                    Login
+                                </Button>
+                            ) : (
+                                <div
+                                    className="user-profile d-flex align-items-center gap-2  glass p-2"
+                                    onClick={() => navigate("/profile")}
+                                    style={{ cursor: "pointer" }}
+                                >
+                                    <div className="user-avatar">
+                                        {user.name ? user.name.charAt(0).toUpperCase() : "U"}
+                                    </div>
+
+                                    <span className="d-none d-md-inline">
+                                        {user.name || "User"}
+                                    </span>
+                                </div>
+                            )}
+
                         </div>
                     </div>
 

@@ -27,6 +27,7 @@ import TermsOfService from "./pages/TermsOfService";
 import CookiePolicy from "./pages/CookiePolicy";
 import Accessibility from "./pages/Accessibility";
 import Sitemap from "./pages/Sitemap";
+import Profile from "./pages/Profile";
 
 
 function App() {
@@ -48,6 +49,7 @@ function App() {
           <Route path="/proceed-pay" element={<ProceedToPay />} />
           <Route path="/success" element={<Success />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/profile" element={<Profile />} />
           <Route path="/register" element={<Register />} />
           <Route path="/dashboards" element={<RoleDashboards />} />
           <Route path="/help-center" element={<HelpCenter />} />
@@ -61,6 +63,7 @@ function App() {
           <Route path="/cookies" element={<CookiePolicy />} />
           <Route path="/accessibility" element={<Accessibility />} />
           <Route path="/sitemap" element={<Sitemap />} />
+
           {/* Add future pages here */}
         </Routes>
       </Layout>
