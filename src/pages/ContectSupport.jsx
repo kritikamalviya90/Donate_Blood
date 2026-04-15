@@ -23,9 +23,9 @@ export default function ContactSupport() {
     <Container className="py-5">
 
       {/* Page Title */}
-      <h1 className="mb-2 ui-text-white pt-5">Contact & Support</h1>
+      <h1 className="mb-2  text-white pt-5">Contact & Support</h1>
 
-      <p className="mb-5 ui-text-muted">
+      <p className="mb-5 text-white">
         We’re here to help. Reach out for any questions, emergencies, or feedback.
         Your safety is our priority.
       </p>
@@ -36,19 +36,19 @@ export default function ContactSupport() {
         <Col md={4}>
           <Card className="p-4 glass h-100 hospital-card">
 
-            <h5 className="mb-3 ui-text-white">Get in Touch</h5>
+            <h5 className="mb-3 text-white">Get in Touch</h5>
 
-            <p className="ui-text-muted">
+            <p className="text-white">
               <FaMapMarkerAlt className="me-2 ui-text-accent" />
               123 Blood Drive St, Mumbai, India
             </p>
 
-            <p className="ui-text-muted">
+            <p className="text-white">
               <FaPhone className="me-2 ui-text-accent" />
               +91 98765 43210
             </p>
 
-            <p className="ui-text-muted">
+            <p className="text-white">
               <FaEnvelope className="me-2 ui-text-accent" />
               support@blooddonate.com
             </p>
@@ -60,7 +60,7 @@ export default function ContactSupport() {
         <Col md={8}>
           <Card className="p-4 glass hospital-card">
 
-            <h5 className="mb-3 ui-text-white">Send a Message</h5>
+            <h5 className="mb-3 text-white">Send a Message</h5>
 
             <Form onSubmit={handleSubmit}>
 
@@ -68,7 +68,7 @@ export default function ContactSupport() {
 
                 <Col md={6}>
                   <Form.Group>
-                    <Form.Label className="ui-text-white">Name</Form.Label>
+                    <Form.Label className="text-white">Name</Form.Label>
 
                     <Form.Control
                       type="text"
@@ -83,7 +83,7 @@ export default function ContactSupport() {
 
                 <Col md={6}>
                   <Form.Group>
-                    <Form.Label className="ui-text-white">Email</Form.Label>
+                    <Form.Label className="text-white">Email</Form.Label>
 
                     <Form.Control
                       type="email"
@@ -98,7 +98,7 @@ export default function ContactSupport() {
 
                 <Col md={12}>
                   <Form.Group>
-                    <Form.Label className="ui-text-white">Message</Form.Label>
+                    <Form.Label className="text-white">Message</Form.Label>
 
                     <Form.Control
                       as="textarea"
@@ -137,7 +137,7 @@ export default function ContactSupport() {
             style={{ height: "300px", borderRadius: "var(--border-radius)" }}
           >
 
-            <h5 className="ui-text-white">Our Location</h5>
+            <h5 className="text-white">Our Location</h5>
 
             <div
               style={{

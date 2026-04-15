@@ -8,18 +8,18 @@ export default function Navbar() {
         { name: "Find Blood", path: "/find-blood" },
         { name: "Donate Blood", path: "/become-donor" },
         { name: "Hospitals", path: "/hospitals" },
-        { name: "Blood Banks", path: "/hospitals" },
+        { name: "Blood Banks", path: "/blood-banks" }, // fixed
         { name: "About", path: "/about" },
         { name: "Contact", path: "/contact-support" },
     ];
 
     return (
-        <nav className="navbar navbar-expand-lg custom-navbar">
+        <nav className="navbar custom-navbar">
             <div className="container-fluid">
 
-                {/* ================= DESKTOP NAVBAR ================= */}
-                <div className="navbar-collapse d-none d-md-flex justify-content-center">
-                    <ul className="navbar-nav fw-bold gap-4">
+                {/* ================= DESKTOP + TABLET NAVBAR ================= */}
+                <div className="justify-content-center d-none d-md-flex w-100">
+                    <ul className="navbar-nav flex-row fw-bold gap-4">
 
                         {navItems.map((item, index) => {
                             const isActive = location.pathname === item.path;
@@ -39,9 +39,8 @@ export default function Navbar() {
                     </ul>
                 </div>
 
-                {/* ================= MOBILE NAVBAR ================= */}
+                {/* ================= MOBILE NAVBAR ONLY ================= */}
                 <div className="d-md-none mobile-nav-wrapper">
-
                     <ul className="navbar-nav flex-row mobile-nav-scroll px-2">
 
                         {navItems.map((item, index) => {
@@ -60,7 +59,6 @@ export default function Navbar() {
                         })}
 
                     </ul>
-
                 </div>
 
             </div>
