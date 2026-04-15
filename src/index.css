@@ -1442,3 +1442,42 @@ textarea::placeholder {
     max-width: 500px;
   }
 }
+
+/* mbl nav */
+.mobile-bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 8px 0;
+  border-top: 1px solid #ddd;
+  z-index: 1000;
+}
+
+.bottom-nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: var(--blood-light);
+  font-size: 12px;
+  transition: 0.3s;
+}
+
+.bottom-nav-item .icon {
+  font-size: 18px;
+  margin-bottom: 2px;
+}
+
+.bottom-nav-item.active {
+  color: var(--blood-primary);
+  /* blood theme */
+}
+
+.bottom-nav-item:hover {
+  color: var(--blood-light);
+}
