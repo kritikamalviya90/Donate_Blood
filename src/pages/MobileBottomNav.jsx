@@ -13,7 +13,7 @@ export default function MobileBottomNav() {
     ];
 
     return (
-        <div className="mobile-bottom-nav d-md-none glass">
+        <div className="mobile-bottom-nav d-md-none glass mt-5">
             {navItems.map((item, index) => {
                 const isActive = location.pathname === item.path;
 
