@@ -58,7 +58,7 @@ const Footer = () => {
           </Col>
           <Col lg={2} md={6} className="mb-4 ">
             <h5 className="footer-title">Trust</h5>
-            <div className="d-flex flex-row gap-2 ">
+            <div className="d-flex flex-row gap-2 justify-content-center ">
               <img src={encryptionBadge} alt="AES-256 Encryption" style={{
                 height: "40px",
                 borderRadius: "100%",
